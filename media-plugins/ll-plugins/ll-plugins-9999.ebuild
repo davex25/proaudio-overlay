@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit multilib git
+inherit multilib git-r3
 
 DESCRIPTION="collection of LV2 plugins, LV2 extension definitions, and LV2 related tools"
 HOMEPAGE="http://ll-plugins.nongnu.org"
