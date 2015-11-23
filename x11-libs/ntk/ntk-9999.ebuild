@@ -33,4 +33,7 @@ src_configure() {
 	local mywafconfargs=()
 	use debug && mywafconfargs+=--enable-debug
 	waf-utils_src_configure ${mywafconfargs}
+
+	export RAN_LDCONFIG=true
+	export DESTDIR="${D}"
 }
