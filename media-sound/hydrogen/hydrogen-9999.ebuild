@@ -30,7 +30,7 @@ RDEPEND="
 	alsa? ( media-libs/alsa-lib )
 	jack? ( media-sound/jack-audio-connection-kit )
 	ladspa? ( media-libs/liblrdf )
-	lash? ( virtual/liblash )
+	lash? ( media-sound/lash )
 	lrdf? ( media-libs/liblrdf )"
 DEPEND="${RDEPEND}"
 

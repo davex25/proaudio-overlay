@@ -4,7 +4,7 @@
 
 EAPI="5"
 
-PYTHON_COMPAT="python2_7"
+PYTHON_COMPAT=( python2_7 )
 inherit eutils python-r1 distutils-r1
 
 DESCRIPTION="LADITools is a set of tools to improve desktop integration and user workflow of Linux audio systems"
