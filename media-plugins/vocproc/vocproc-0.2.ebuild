@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 inherit eutils multilib toolchain-funcs
 
 DESCRIPTION="LV2 plugin for pitch shifting, vocoding, automatic pitch correction
