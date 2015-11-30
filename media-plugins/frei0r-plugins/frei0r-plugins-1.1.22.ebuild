@@ -4,7 +4,7 @@
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="git://code.dyne.org/frei0r.git"
-	inherit autotools git
+	inherit autotools git-r3
 	SRC_URI=""
 else
 	SRC_URI="http://propirate.net/frei0r/${P}.tar.gz"

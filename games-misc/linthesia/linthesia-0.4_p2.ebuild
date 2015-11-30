@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 inherit games toolchain-funcs versionator
 
 MY_SFVER="$(get_version_component_range 1-2)"
