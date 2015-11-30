@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 inherit exteutils multilib git-2 waf-utils
 
 DESCRIPTION="Abraca is a GTK2 client for the XMMS2 music player."
