@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=5
 inherit toolchain-funcs
 
 DESCRIPTION="measures the latency between two jack ports with subsample accuracy"
